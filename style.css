@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins";
+}
+
+body {
+    background-color: rgb(15, 13, 43);
+    color: antiquewhite;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(37, 37, 90);
+    padding: 0 50px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+.left {
+    font-size: 30px;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 0;
+}
+
+.firstsection > div {
+    width: 30%;
+}
+
+.rightsection img {
+    margin-top: 100px;
+    border-radius: 50%;
+}
+
+.leftsection h1 {
+    font-size: 40px;
+}
+
+.leftsection p {
+    font-size: 25px;
+}
+
+.leftsection {
+    margin-top: 170px;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.right ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.right ul li a:hover {
+    color: rgb(52, 128, 128);
+}
+
+#element {
+    color: rgb(88, 88, 144);
+    font-size: 25px;
+}
+
+section {
+    max-width: 80%;
+    margin: 60px auto; /* Add margin for spacing between sections */
+    padding: 20px;
+    background-color: rgb(30, 30, 70);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+section h1 {
+    font-size: 28px; /* Adjusted size for section headings */
+    color: rgb(200, 200, 255);
+    margin-bottom: 20px; /* Spacing below the heading */
+    text-align: center; /* Centering section headings */
+}
+
+section p {
+    color: rgb(230, 230, 230);
+}
+
+hr {
+    border: 0;
+    background-color: rgb(63, 66, 156);
+    height: 2px; /* Increased height for better visibility */
+    margin: 40px 0; /* Spacing around horizontal rules */
+}
+
+footer {
+    background-color: rgb(10, 10, 62);
+    padding: 50px 100px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer h3 {
+    margin: 0; /* Reset margin */
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer ul li {
+    margin: 0 15px; /* Spacing between footer links */
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover {
+    color: rgb(52, 128, 128);
+}
+
+.text p {
+    text-align: center;
+    color: white; /* Make footer text white for visibility */
+}
+
+.contact-section {
+    margin-top: 20px; /* Spacing for the contact section */
+}
+
+/* Input and button styles */
+input,
+textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    background-color: rgb(50, 50, 90);
+    color: white;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border: 1px solid rgb(200, 200, 255);
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(100, 100, 200);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(52, 128, 128);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .firstsection {
+        flex-direction: column;
+        align-items: center;
+    }
+    .firstsection > div {
+        width: 100%;
+        text-align: center;
+    }
+    .about-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .profile-image {
+        width: 80%;
+    }
+}
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.about-icon {
+    background-color: rgb(50, 50, 90); /* Background color for the icon */
+    border-radius: 50%; /* Make it circular */
+    padding: 20px; /* Spacing around the icon */
+    margin-right: 20px; /* Space between icon and text */
+}
+
+.about-icon i {
+    color: rgb(200, 200, 255); /* Icon color */
+}
+
+.about-text {
+    color: rgb(230, 230, 230);
+}
+
